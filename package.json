@@ -1,0 +1,27 @@
+{
+  "name": "twitter-color-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html ./data/*",
+    "build": "npx parcel build index.html --public-url https://guanbinrui.github.io/twitter-color-schema/",
+    "page": "echo \"require('gh-pages').publish('dist', {repo: 'git@github.com:guanbinrui/twitter-color-schema.git'}, (e) => console.log(e || 'done'))\" | node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.3"
+  }
+}
